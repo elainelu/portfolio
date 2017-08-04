@@ -1,0 +1,37 @@
+blocks:
+- size: 4
+  type: project-button
+  name: Moxtra
+  tagline: |
+    Summer 2017
+  slug: 
+- size: 4
+  type: project-button
+  name: Dilili Labs
+  tagline: |
+    Summer 2016
+  slug: 
+- size: 4
+  type: project-button
+  name: Wechat Extension
+  tagline: |
+    Winter 2017    
+  slug: 
+- size: 4
+  type: project-button
+  name: Zoom In
+  tagline: |
+    Summer 2016
+  slug: 
+- size: 4
+  type: project-button
+  name: Chooser
+  tagline: |
+    Summer 2017
+  slug: marko
+- size: 4
+  type: project-button
+  name: Ruling Ruler
+  tagline: |
+    Winter 2016
+  slug: spare

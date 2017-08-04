@@ -1,0 +1,8 @@
+<nav class="top-nav">
+    <button class="left">
+        <a href="/">{{site.data.profile.name}}</a>
+    </button>
+    <button class="right">
+        <a href="{{site.data.profile.email | prepend: 'mailto:'}}">{{site.data.profile.email}}</a>
+    </button>
+</nav>

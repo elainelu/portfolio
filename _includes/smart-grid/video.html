@@ -1,0 +1,15 @@
+{% capture options_query %}
+{% for youtube_hash in block.youtube_options %}
+    {% for option in youtube_hash %}
+        &
+        {{option[1] | prepend: '=' | prepend: option[0]}}
+    {% endfor %}
+{% endfor %}
+{% endcapture %}
+{% assign options_query = options_query | split: " " | join: "" | replace_first: "&", "?" %}
+<div class="grid-{{block.size}} video {{block.options | join: " "}}">
+    <iframe class="youtube-player" type="text/html" src="{{block.youtube_id | append: options_query | prepend: 'http://www.youtube.com/embed/'}}" height="{{block.height}}" frameborder="0"></iframe>
+    {% if block.caption %}
+    <div class="caption">{{block.caption | markdownify}}</div>
+    {% endif %}
+</div>

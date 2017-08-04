@@ -1,0 +1,18 @@
+// Import gridle :
+@import 'gridle/gridle';
+
+// setup the grid (required) :
+@include gridle_setup((
+	context : 12,
+	gutter-width : 50px,
+	debug : false
+));
+
+// clear each classes :
+@include gridle_register_clear_each(2, left);
+@include gridle_register_clear_each(12, both);
+
+@include gridle_register_state (mobile, (
+    max-width : 768px,
+    gutter-width : 20px
+));
