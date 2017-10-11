@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 
-    <title>Wechat</title>
+    <title>Wechat Pages</title>
 
     <meta name="description" content="
 ">
@@ -48,7 +48,7 @@
             
         </div>
         <h1>WeChat Extension</h1>
-        <h2><p>Contract Design Work, Winter 2016</p>
+        <h2><p>Contract Designer, Winter 2016/2017</p>
 </h2>
     </header>
     <section class="smart-grid">
@@ -56,50 +56,61 @@
         <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
         <div class="grid-12 text-block">
 
-        <h4 id=""><a href="http://dilililabs.com/">Dilili Labs</a> is working on a multi-purpose robot platform that can be controlled by and monitored through android apps.</h4>
+        <h4 id=""><a href="http://1to1english.co/">1on1English</a> is a WeChat page that connects and schedules chat sessions between Chinese students to native English tutors.</h4>
 
-        <p>I spent my Summer mainly working on designing and building the Follow Me android application, and defining a design spec for the framework of the future applications for internal testing and demo purposes. Along the way, I worked with Android Studio, pushed code in Java, and created interactions, visuals, and presentation graphics.</p>
-        
+        <br><br>
+        <p><img src="assets/projects/wechat/asset.png" width="100%"/>
 
-        <h4 id="" style="font-weight:bold;">How might we build tools to test existing programs and establish possible functionalities of the platform?</h4>
+        <p>I spent the Winter of 2016 working on the Product team at Uniware HQ in Beijing. During my time abroad, I cleaned up the calendar/scheduling flow, and researched a design spec for a future implementation of a future UI framework, currently constructed around Taobao's open source API. The product had just been launched as "Official Account" extention on WeChat. Along the way, I was able to access and analyzed UI patterns across native Chinese applications. </p>
 
-        <p>The most immediate issue is to create tool to perform the commands and execute existing programs on demand. We wanted to focus on developing an application to use for internal testing. At the same time, this tool will also show others how the robot works, and be able to demonstrate new features and functionalities.
+     <!--    <h4 id="" style="font-weight:bold;">How might we build tools to test existing programs and establish possible functionalities of the platform?</h4> -->
+
+        <p>The goal of creating a product like this one is to put tools in the hands of teachers and students who will create their own value propositions based on it. Registered users can find each other to start conversations, manage personal payments, and schedule sessions that work with time differences.
+            
+       <!--  <p>I began by going through the original specs to re-construct a flow based on the previous model, while keeping in mind constraints in terms of time, engineering, and impact. The first flowchart is a flushed out list of the main features across the product. The second chart shows the before and after of the "tutor" portal after logging in.  -->
 
 <!-- </div> </div> -->
         <br><br>
-        <p><img src="../assets/projects/dilili/asset6.png" width="100%"/>
+        <p><img src="assets/projects/wechat/asset1.png" width="100%"/>
 
-        <center><h4 id="" style="font-weight:bold;">Users</h4></center>
+        <center><h4 id="" style="font-weight:bold;">Surfacing Activity</h4></center>
 
-        <p>I identified a few personas of our target users for whom the app would be useful to. These include individual contributers, engineers, and other tech companies.
-        
+        <p>Here are a range of ways to surface features across different pages. In creating a uniform framework for organizing UI elements already implemented, I diagramed variations of layouts for the main activity screens that overlap the tutor and student internal portals to guide my design process.
+
+<!--         <center><h4 id="" style="font-weight:bold;">Intial Impressions and UX Notes</h4></center> -->
+        <p>While I familiarized myself with the product, I noted initial impressions, reactions to the existing user experience, and questions. These notes quickly translated into a document detailing existing design conventions and patterns across the product, including comparative hypotheses of how users interact and engage with native Chinese applications verses US apps. More on this later!
+          
+        <center>
         <br>
-        <p><img src="../assets/projects/dilili/asset4.png" width="100%"/>
+        <p><img src="assets/projects/wechat/asset2.png" width="100%"/>
         <br>
-        <p><img src="../assets/projects/dilili/asset5.png" width="100%"/>
+        <p><img src="assets/projects/wechat/asset3.png" width="60%"/>
+        </center>
+<!--         <p>Throughout the project, I also conducted quick user tests and observations to gain a better understanding of the Chinese market I was designing for, and prediction for how the features would be used.</p> -->
 
-        <center><h4 id="" style="font-weight:bold;">Wireframing</h4></center>
+        <center><h4 id="" style="font-weight:bold;">Scheduling</h4></center>
 
-        <p>Our goal was to design a product that enables the robot to perform "follow me" where the robot lock down on the sensor-detected person within a five feet radius, then follow and record that persons path for future repetitions. The first step was to integrate our motion detection and cv algorithms with the Android app, allowing it to serve as a remote control.</p>
+        <p>Syncronizing people's schedules was the next challenge. We need to minimize on undesirable missed lesson opportunities between different time zones, while allowing both parties the options to chose. The solution was to add prompts that will auto-schedule a time where both people are available, then pass on the options for the tutor and student to select from and confirm.
 
-        <p>The video recording lens is now redirected thorugh the robot platform. With this in mind, I wanted to keep the activity screens as familiar as possible. This interface picture above is derived from the phone camera's video recording screen, with microinteractions and tweeks such as the progress loading and status bar at the top.
+        <p>The "scheduling lessons" flow and "add to calender" task screen were seperate, and underutilized in both engaging actionable feedback, and building rapport early on. As a test user, it was diffucult to and understand the possibilities of the scheduler based on the existing UX. 
 
-        <p>When you open the app, the welcome screen provides a brief description of what to expect when you begin recording paths, while providing time for data to load. Once a person stands within range of the video camera for it to recognize you, the robot will automatically lock down on the identified person. A pop up notification will ask you to confirm. 
-        
+        <p><img src="assets/projects/wechat/asset5.png" width="100%"/>
+        </center>
+
+
+         
+
+    <!--     When tutor accepts request from student, a pop-up menu appears with three recommended lesson times. They can then edit any of these times, then tap send to pass these options to the student. The student selects a final time out of the three. Both receive notifications that it is added to their calendar.  -->
+        <p><center><h4 id="" style="font-weight:bold;">Time Zone & Calendar</h4></center>
+
+        <p>The scheduler tool and calendar is now linked to one screen. Tutors can indicate their availability on their calendar, where the times of mutal availability can be seen by students. All booked lessons will then be automatically added to your calendar. Reminder notifications will be sent accordingly.
+
         <br><br>
-        <p><img src="../assets/projects/dilili/asset2.png" width="100%"/>
-
+        <p><img src="assets/projects/wechat/asset0.png" width="100%"/>
         
         <p><center><h4 id="" style="font-weight:bold;">Implementation</h4></center>
-        <p>The feature I worked on implementing is video streaming and recording path data. The main features include sensor selection, video streaming and recording. We kept the recording interface consistent with the android camera and video screens, with the addition of robot activity and status report messages. Live video footage will stream to your device and be saved in your gallery. 
 
-        <p>Having explored a few different directions, we converged on an interface that allows integration of all features the engineering team was currently working on, and with placeholders for features that were to be integrated in the future. This was a good option to immediately ship given our time frame to develop and demo the app, while allowing versitity for adding new features moving forward.
-
-        <br>
-        <p><img src="../assets/projects/dilili/asset3.png" width="100%"/>
-
-        <!-- <center><h4 id="" style="font-weight:bold;">Deliverables</h4></center> -->
-        <p>I also worked on cleaning up a robot diagnostics tool and remote control that generates status reports, controls speed and direction. This testing application was intially used in conjunction with "follow me" to establish a connection between our software and the robot.
+        <p>Above are the mains screens based on our final design framework. The product is currently in its testing stages while the mechanics and code are being cleaned up. Everything viewable by non-registered users are public. 
         </div>
     
 
@@ -122,7 +133,7 @@
             <h3>Summer 2017
 </h3>
         </div>
-        <img src="../assets/index/moxtra-bg.png" />
+        <img src="assets/index/moxtra-bg.png" />
     </a>
 </div>
             
@@ -133,7 +144,7 @@
             <h3>Summer 2016
 </h3>
         </div>
-        <img src="../assets/index/dilili-bg.png" />
+        <img src="assets/index/dilili-bg.png" />
     </a>
 </div>
             
@@ -144,18 +155,18 @@
             <h3>Winter 2017    
 </h3>
         </div>
-        <img src="../assets/index/wechat-bg.png" />
+        <img src="assets/index/wechat-bg.png" />
     </a>
 </div>
             
                 <div class="grid-4 project-button ">
     <a class="fill" href="_projects/bwxd.html" rel="project">
         <div class="text">
-            <h2>Better x Design</h2>
+            <h2>Better World x Design</h2>
             <h3>Spring 2017
 </h3>
         </div>
-        <img src="../assets/index/bwxd.png" />
+        <img src="assets/index/bwxd.png" />
     </a>
 </div>
             
@@ -166,18 +177,18 @@
             <h3>Winter 2016
 </h3>
         </div>
-        <img src="../assets/index/ruler-bg.png" />
+        <img src="assets/index/ruler-bg.png" />
     </a>
 </div>
             
                 <div class="grid-4 project-button ">
     <a class="fill" href="/projects/dfa" rel="project">
         <div class="text">
-            <h2>Design Thinking for Youth</h2>
-            <h3>Fall 2016
+            <h2>Stacks</h2>
+            <h3>Fall 2017
 </h3>
         </div>
-        <img src="../assets/index/dfa-bg.png" />
+        <img src="assets/index/stacks-bg.png" />
     </a>
 </div>   
         </div>
