@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <title>Spark</title>
+
+    <meta name="description" content="">
+
+    <link rel="icon" href="/favicon.png" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="canonical" href="http://eelainelu.com/projects/spark/">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/js/turbolinks.js"></script>
+    <script type="text/javascript"  src="/js/wow.js"></script>
+    <script type="text/javascript">
+        var wow = new WOW({offset:100});
+        $(document).on("page:load", function() {
+            jQuery.ready();
+        });
+        wow.init();
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-59672518-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+    <body>
+        <main id="page">
+            <nav class="top-nav">
+
+        <a href="https://elainelu.github.io/portfolio/" style="font-size:14px;">Elaine Lu</a>
+        <a href="mailto:elainelu98@gmail.com" style="float:right;font-size:14px;">Contact</a>
+</nav>
+<section class="page-projects-wizzy">
+    <header class="animated bounceInDown">
+        <div class="flag-image">
+            
+        </div>
+        <h1>S'park</h1>
+        <h2><p>Street Parking App Design Sprint, Fall 2017</p><br>
+            <p><center><img src="assets/projects/spark/cover.png" width="100%"/></center>
+</h2>
+    </header>
+    <section class="smart-grid">
+        <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <h4 id=""><b>S'park</b> is for drivers. It is an app that allows you to find, pay for, and keep track of the status of parking spots near your destination.</h4>
+
+            <p><i>"Mayor Jorge O. Elorza revealed a proposed five-year capital improvement plan Tuesday that calls for spending between $16 million and $34 million a year on repairs to sidewalks, sewers, bridges and other infrastructure improvement projects." – John Hill, <a href="http://www.providencejournal.com/news/20170117/elorza-plans-to-spend-121m-on-providence-infrastructure">Providence Journal</a> Jan. 2017<i></p>
+        </div></div>
+        <center><img src="assets/projects/spark/logo.gif" width="70%"/></center>
+        <center><img src="assets/projects/spark/asset1.png" width="70%"/></center>
+        <center><img src="assets/projects/spark/asset2.png" width="70%"/></center>
+        <center><img src="assets/projects/spark/asset3.png" width="70%"/></center>
+
+        <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <p><center><h4 id="" style="font-weight:bold;">Conceptual Models</h4></center>
+        <p>The assignment was to <b>document any creative process and create a user journey map based on observations.</b> I chose "looking for parking" and pitched it to the class the next week. After forming a group who was interested in the idea, we began looking conceptual models that our app could leverage. We also came up with survey questions that would help us better understand the people we were designing for.</p>
+        </div></div>
+
+        <center><img src="assets/projects/spark/asset0.png" width="80%"/></center>
+
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+    <div class="grid-12 text-block">
+        <p><center><h4 id="" style="font-weight:bold;">Interviews & Surveys</h4></center>
+        
+        <p><b>We interviewed 15 Providence drivers, and collected 32 survey responses from nonlocal drivers.</b> Here are some of our findings: Most people have had issues with unpaid and expired meters. People try to avoid paid parking where there is free parking. If people pay with card, they tend to pay for the estimated maximum time. People use street parking either infrequently or very frequently, few in-betweens. The most important factor when looking for street parking is low pricing and closer proximity of parking spot to their destination.<p>
+
+        <p><b>Survey results allowed us to identify scenarios we need to take special care to prevent moving forward.</b> Some things to keep in mind: when a person tries to reserve a spot that is already taken, when they are new to an area and do not know where the paid and free parking spots are, when they cannot tell the difference between paid and free parking, when they have more than one car and wish to register all of them, when they browse parking spots and attractions before they start driving to their destination, when they have overdue payments, how s'park will charge back and forth between different cars, etc.
+    </div></div> 
+
+        <center>
+        <p><img src="assets/projects/spark/asset4.png" width="80%"/>
+        <p><img src="assets/projects/spark/kim.png" width="100%"/>
+        <p><img src="assets/projects/spark/ron.png" width="100%"/>
+        </center>
+    
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <p><br>We constructed journey maps for two Providence drivers that represent an average of those we interviewed. Kim is willing to pay for parking if the spot is close to her desination. Ron would rather park further to avoid paid parking, but needs to keep track of time zones and restricted parking. Both run into common issues that come up involving parking meters, color zones, and finding parking spots.
+    </div></div>
+        
+        <center><p><img src="assets/projects/spark/asset15.png" width="100%"/></center></p> 
+
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <center><h4 id="" style="font-weight:bold;">Information Architecture & Wireframing</h4></center>
+        <p>Post-research phase, our group came together to reevaluate product objectives and success metrics. <b>Given the wealth of navigation and parking apps out there, how will S'park stand out?</b> With this question in mind, we wanted the app to help people save time and become more aware of parking spaces, availability and hotspots near their desination.
+
+        <p>As such, our app will achieve the objectives above by providing real-time feedback on parking availability in set location zones, accurately display parking prices, merge existing hardware (EZ-pass and parking meters) with our digital interface to syncronize overall payment experience, enable multiple payment methods and time extension, and encourage traffic efficiency by adjusting parking prices based on parking availability.
+
+    </div></div>
+
+        <center><p><img src="assets/projects/spark/asset8.png" width="100%"/></center>
+
+<!-- what users does your product serve and how could you segment them? -->
+    <p>
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <center><h4 id="" style="font-weight:bold;">Mockup Screens</h4></center>
+        <p>Going off of our information architecture, we mocked up screens of the key features we were going to include in the app. This is what we imagine the app to look like.</p>
+    </div></div>
+
+
+        <p><img src="assets/projects/spark/asset16.png" width="48%" style="float:left"/>
+        <p><img src="assets/projects/spark/asset17.png" width="48%" style="float:right"/>
+
+
+        </div>
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+        <div class="grid-12 text-block">
+        <center><h4 id="" style="font-weight:bold;">Brand Identity</h4></center>
+        <p>Our group met right before Thanksgiving break to put together a finalized style sheet. We also allocated screens for each team member to work on over the weekend based on the colors and typeface above. We decided on a cool blue and purple gradient as our brand color, and the FF CoCon (logo) and Hind Vadodara (standard) typefaces. <b>The overall look feels familiar and friendly, while departing from popular and overused app styles</b> (ex: 50 shades of dad jeans blue, and San Francisco/Roboto/Helvetica). </p>
+    </div></div>
+        <center><p><img src="assets/projects/spark/asset18.png" width="100%"/></center>
+    
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+    <div class="grid-12 text-block">
+    <center><h4 id="" style="font-weight:bold;">Working Prototype</h4></center>
+        <p>Here is our working prototype of the <a href="https://www.figma.com/proto/MFUCiqbf1gj9vchqw3gDEG0C/INFORMATION-ARCHITECTURE-and-WIREFRAMES?scaling=contain" target="_blank">S'park app</a>! Everything was made on Figma, so feel free to play around with it. The prototype contains 43 screens that encapsulates the main features demonstrating how the app will work. If the link still loading, please enjoy the following recording of one of our team members using S'park to find street parking on Thayer Street.</p>
+    </div></div>
+    <center><img src="assets/projects/spark/video.gif" width="100%"/></center>
+    <center><img src="assets/projects/spark/asset19.png" width="100%"/></center>
+    <center><img src="assets/projects/spark/asset20.png" width="100%"/></center>
+    <center><img src="assets/projects/spark/asset21.png" width="100%"/></center>
+
+    <div class="wow fadeInUp parent grid-12 row clear vertical-align-middle">
+    <div class="grid-12 text-block">
+    <p>
+    <center><h4 id="" style="font-weight:bold;">MVP Screens & Design Details</h4></center>
+        <p>Above are select screens from our parking navigation map, car settings, and payments. Creating this app is how we spent our Thanksgiving. Hope you all enjoyed the long weekend, and wherever you were going, <span style="color:#d3d3d3;">s'</span>parking wasn't too much of a hassle. </p>
+    </div></div>
+   
+</section>
+        </main>
+
+
+
+<nav class="project-switcher">
+    <section class="smart-grid">
+        <div class="wow fadeInUp parent grid-12 row clear button-grid">
+        <div class="grid-4 project-button ">
+
+    <a class="fill" href="moxtra.html" rel="project">
+        <div class="text">
+            <h2>Moxtra</h2>
+            <h3>Summer 2017
+</h3>
+        </div>
+        <img src="assets/index/moxtra-bg.png" />
+    </a>
+</div>
+            
+        <div class="grid-4 project-button ">
+    <a class="fill" href="dilili.html" rel="project">
+        <div class="text">
+            <h2>Dilili Labs</h2>
+            <h3>Summer 2016
+</h3>
+        </div>
+        <img src="assets/index/dilili-bg.png" />
+    </a>
+</div>
+            
+                <div class="grid-4 project-button ">
+    <a class="fill" href="wechat.html" rel="project">
+        <div class="text">
+            <h2>WeChat Extension</h2>
+            <h3>Winter 2017    
+</h3>
+        </div>
+        <img src="assets/index/wechat-bg.png" />
+    </a>
+</div>
+            
+                <div class="grid-4 project-button ">
+    <a class="fill" href="bwxd.html" rel="project">
+        <div class="text">
+            <h2>Better World x Design</h2>
+            <h3>Spring 2017
+</h3>
+        </div>
+        <img src="assets/index/bwxd.png" />
+    </a>
+</div>
+            
+                <div class="grid-4 project-button ">
+    <a class="fill" href="ruler.html" rel="project">
+        <div class="text">
+            <h2>Ruling Ruler</h2>
+            <h3>Winter 2016
+</h3>
+        </div>
+        <img src="assets/index/ruler-bg.png" />
+    </a>
+</div>
+            
+                <div class="grid-4 project-button ">
+    <a class="fill" href="spark.html" rel="project">
+        <div class="text">
+            <h2>S'park</h2>
+            <h3>Fall 2017
+</h3>
+        </div>
+        <img src="assets/index/spark-bg.png" />
+    </a>
+</div>   
+        </div>
+
+    
+</div>
+    </section>
+</nav>
+        
+    </body>
+</html>
