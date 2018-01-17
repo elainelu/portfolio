@@ -1,3 +1,2 @@
 # eelainelu.github.io
-personal website
-~handmade in the library basement Summer 2017~
+personal website c.2017
