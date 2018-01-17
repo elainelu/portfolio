@@ -1,0 +1,16 @@
+---
+# Main styles for the site.
+---
+@charset "utf-8";
+
+// importing partials
+@import
+        "reset",
+        "normalize",
+        "variables",
+        "animate",
+        "hover",
+        "grid",
+        "type",
+        "styles"
+;
