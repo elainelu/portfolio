@@ -58,7 +58,7 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 	
 	footer ul{position:relative;top:-36px;font-size: 14px;float:right;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}
 	footer ul li{margin-left:15px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:0 20px}}nav.project-switcher 
-	section.smart-grid{width:100%;max-width:910px;margin:0 auto;margin-top:150px;margin-bottom:300px}@media screen and (max-width: 768px){nav.project-switcher 
+	section.smart-grid{width:100%;max-width:770px;margin:0 auto;margin-top:150px;margin-bottom:300px}@media screen and (max-width: 768px){nav.project-switcher 
 	/*social media*/
 
 
@@ -89,4 +89,3 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 	section.smart-grid .project-button a.fill:hover div.text{margin-top:-24px}section.smart-grid .project-button a.fill:hover div.text 
 	h3{visibility:visible}
 	@media screen and (max-width: 768px){[class*="grid-"]{width:100%;margin-bottom:60px}}
-
