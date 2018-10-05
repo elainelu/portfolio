@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% include top-nav.html %}
+<section class="{{page.url | slugify | prepend: 'page-' }}">
+    <header class="animated bounceInDown">
+        <div class="flag-image">
+            {% if page.flag_image %}
+            <img src="/assets/projects/{{page.title | slugify}}/{{page.flag_image}}" alt="project-logo" />
+            {% endif %}
+        </div>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.subtitle | markdownify }}</h2>
+    </header>
+    {% include smart-grid.html %}
+    {{ content }}
+</section>
