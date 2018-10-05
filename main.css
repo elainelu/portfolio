@@ -46,12 +46,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	header h1{font-weight:600 !important;font-size:42px;font-weight:bold;margin-bottom:24px;}.page-index-html 
 	header h1{font-size:45px}
 	header h2{font-weight:300;font-size:16px; color:#a9a9a9;}.page-index-html header h2{font-weight:normal;margin:auto;width:50%;font-size:14px}@media screen and (max-width: 768px){.page-index-html header h2{width:100%}}
-	footer ul{position:relative;top:-36px;font-size:1px;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}footer ul li{margin-left:px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:0 20px}}nav.project-switcher section.smart-grid*{width:85%;margin:0 auto; float:;}@media screen and (max-width: 768px){nav.project-switcher 
-	/*social media*/
-
-
-
-	section.smart-grid{width:100%;margin-top:0;margin-bottom:0;padding:0}}nav.project-switcher 
+	footer ul{position:relative;top:-36px;font-size:1px;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}footer ul li{margin-left:px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:0 20px}}nav.project-switcher section.smart-grid*{width:85%;margin:0 auto; float:;}
+	@media screen and (max-width: 768px){nav.project-switcher section.smart-grid{width:100%;margin-top:0;margin-bottom:0;padding:0}}nav.project-switcher 
 /*	bottom bar*/ section.smart-grid:before{content:" ";width:200px;height:1px;background:#BCBCBC;margin:0 auto;display:block;position:relative;margin-bottom:150px}
 	@media screen and (max-width: 768px){nav.project-switcher section.smart-grid:before{width:100%;margin-bottom:50px}}
 	nav.top-nav{background:#FFF;border-bottom:1px #999 solid; width:100%;max-width:910px;position:fixed;overflow:show;z-index:1000;padding-top:20px;padding-bottom:20px}nav.top-nav button{margin:0 20px;display:block;opacity:0.5;font-size:12px;border:1px #4A4A4A solid;border-radius:10px;background:#FFF;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 2px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
