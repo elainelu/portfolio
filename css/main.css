@@ -54,7 +54,7 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 
 	body{line-height:1.5;font-size:16px;color:#1A1A1A}div.pagination{z-index:0;position:fixed;height:100%;width:50%;top:0}@media screen and (max-width: 768px){div.pagination{display:none}}div.pagination-left{left:0;float:left}div.pagination-left a{float:left}div.pagination-right{right:0;float:right}div.pagination-right a{float:right;-webkit-transform:rotate(180deg);transform:rotate(180deg)}div.pagination:hover .icon{background-color:#F8F8F8}div.pagination a{display:inline-block;padding:50px;position:relative;top:50%;margin-top:-75px}div.pagination .icon{background-repeat:no-repeat;background-position:17px 14px;background-image:url("/assets/caret.png");height:50px;width:50px;border-radius:25px}div.pagination 
 	.icon:hover{background-color:#FFF}main{z-index:1;background:#FFF;min-height:100vh;max-width:910px;margin:0 auto;overflow:hidden;position:relative}
-	@media screen and (max-width: 768px){main{padding:0 20px}}header{padding-bottom:60px;margin:0 auto;margin-top:120px;text-align:center}
+	@media screen and (max-width: 768px){main{padding:0 20px}}header{padding-bottom:50px;margin:0 auto;margin-top:120px;text-align:center}
 	header:after{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;top:60px;position:relative}@media screen and (max-width: 768px){header:after{width:100%}}header .flag-image{margin:20px 0}header h1{font-weight:600 !important;font-size:72px;font-weight:bold;margin-bottom:24px}.page-index-html 
 	header h1{font-size:45px}header h2{font-weight:300;font-size:32px; color:#a9a9a9;}.page-index-html 
 	header h2{font-weight:normal;margin:auto;width:50%;font-size:16px}@media screen and (max-width: 768px){.page-index-html header h2{width:100%}}
@@ -66,7 +66,7 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 	@media screen and (max-width: 768px){nav.project-switcher 
 	section.smart-grid{width:100%;margin-top:0;margin-bottom:0;padding:0}}nav.project-switcher 
 	section.smart-grid:before{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;position:relative;margin-bottom:150px}
-	@media screen and (max-width: 768px){nav.project-switcher section.smart-grid:before{width:100%;margin-bottom:60px}}
+	@media screen and (max-width: 768px){nav.project-switcher section.smart-grid:before{width:100%;margin-bottom:50px}}
 
 	nav.top-nav{background:#FFF;border-bottom:1px #999 solid; width:100%;max-width:910px;position:fixed;overflow:show;z-index:1000;padding-top:20px;padding-bottom:20px}
 	nav.top-nav button{margin:0 20px;display:block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#FFF;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
@@ -75,7 +75,7 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 	button:active{-webkit-animation-name:hvr-hang-sink, hvr-hang;animation-name:hvr-hang-sink, hvr-hang;-webkit-animation-duration:.3s, 1.5s;animation-duration:.3s, 1.5s;-webkit-animation-delay:0s, .3s;animation-delay:0s, .3s;-webkit-animation-timing-function:ease-out, ease-in-out;animation-timing-function:ease-out, ease-in-out;-webkit-animation-iteration-count:1, infinite;animation-iteration-count:1, infinite;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-direction:normal, alternate;animation-direction:normal, alternate}nav.top-nav:after{content:" ";clear:both;display:block}@media screen and (max-width: 768px){nav.top-nav{margin:0 -20px;width:100%}}
 	a{text-decoration:none;color:#1A1A1A; font-weight:bold;}a:hover{color:#f55649}section.smart-grid{padding-top:60px}
 	
-	section.smart-grid .row{position:relative;margin-bottom:60px}section.smart-grid .row.no-gutter{margin-bottom:0}
+	section.smart-grid .row{position:relative;margin-bottom:50px}section.smart-grid .row.no-gutter{margin-bottom:50}
 	section.smart-grid .row.seperators{padding:60px 0;border-top:1px solid #D8D8D8;border-bottom:1px solid #D8D8D8}section.smart-grid .row.button-grid{padding-left:0px !important;padding-right:0px !important}@media screen and (max-width: 768px){section.smart-grid .row{margin-bottom:0}}section.smart-grid h1{font-weight:300;font-size:42px;margin-bottom:12px}section.smart-grid 
 	
 /*	h2{font-size:24px;margin-bottom:12px}section.smart-grid h3{margin-bottom:24px;font-weight:600;margin-bottom:12px}section.smart-grid 
@@ -104,4 +104,4 @@ html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appea
 	section.smart-grid .project-button a.fill:hover img{-webkit-transform:scale(1.1);transform:scale(1.1);opacity:0.7}
 	section.smart-grid .project-button a.fill:hover div.text{margin-top:-24px}section.smart-grid .project-button a.fill:hover div.text 
 	h3{visibility:visible}
-	@media screen and (max-width: 768px){[class*="grid-"]{width:100%;margin-bottom:60px}}
+	@media screen and (max-width: 768px){[class*="grid-"]{width:100%;margin-bottom:50px}}
