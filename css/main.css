@@ -73,9 +73,9 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 	section.smart-grid:before{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;position:relative;margin-bottom:150px}
 	@media screen and (max-width: 768px){nav.project-switcher section.smart-grid:before{width:100%;margin-bottom:50px}}
 
-	nav.top-nav{background:#F8F8F8;border-bottom:1px #999 solid; width:100%;max-width:880px;position:fixed;overflow:visible;
+	nav.top-nav{background:#FFFFFF;border-bottom:1px #F2F2F2 solid; width:100%;max-width:880px;position:fixed;overflow:visible;
 		z-index:1000;padding-top:15px;padding-bottom:15px;padding-left:15px;padding-right:15px;}
-	nav.top-nav button{margin:10 10px;display:inline-block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#F8F8F8;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
+	nav.top-nav button{margin:10 10px;display:inline-block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#FFFFFF;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
 	nav.top-nav button a{display:block;padding:0px;color:#4A4A4A}
 	nav.top-nav button.left{float:left;}
 	nav.top-nav button.right{float:right;}
