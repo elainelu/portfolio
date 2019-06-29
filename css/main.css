@@ -76,9 +76,9 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 	nav.top-nav{background:#F8F8F8;border-bottom:1px #999 solid; width:100%;max-width:900px;position:fixed;overflow:show;
 		z-index:1000;padding-top:15px;padding-bottom:15px;padding-left:0px;padding-right:0px;}
 	nav.top-nav button{margin:0 20px;display:inline-block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#F8F8F8;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
-	nav.top-nav button a{display:block;padding:0px;color:#4A4A4A}
+	nav.top-nav button a{display:block;padding:5px;color:#4A4A4A}
 	nav.top-nav button.left{float:left;padding:10 10px;}
-	nav.top-nav button.right{float:right;padding:10 10px;}
+	nav.top-nav button.right{float:right;padding:10 10 10 10px;}
 	nav.top-nav button:hover{opacity:1, color:#f55649}
 	nav.top-nav button:hover,nav.top-nav button:focus,nav.top-nav 
 	button:active{-webkit-animation-name:hvr-hang-sink, hvr-hang;animation-name:hvr-hang-sink, hvr-hang;-webkit-animation-duration:.3s, 1.5s;animation-duration:.3s, 1.5s;-webkit-animation-delay:0s, .3s;animation-delay:0s, .3s;-webkit-animation-timing-function:ease-out, ease-in-out;animation-timing-function:ease-out, ease-in-out;-webkit-animation-iteration-count:1, infinite;animation-iteration-count:1, infinite;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-direction:normal, alternate;animation-direction:normal, alternate}nav.top-nav:after{content:" ";clear:both;display:block}@media screen and (max-width: 768px){nav.top-nav{margin:0 -20px;width:100%}}
