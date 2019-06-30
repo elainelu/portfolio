@@ -61,10 +61,11 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 	.icon:hover{background-color:#F8F8F8}main{z-index:1;background:#F8F8F8;min-height:100vh;max-width:910px;margin:0 auto;overflow:hidden;position:relative}
 	@media screen and (max-width: 768px){main{padding:0 20px}}header{padding-bottom:50px;margin:0 auto;margin-top:120px;text-align:center}
 	header:after{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;top:60px;position:relative}@media screen and (max-width: 768px){header:after{width:100%}}header .flag-image{margin:20px 0}header h1{font-weight:600 !important;font-size:52px;font-weight:bold;margin-bottom:24px}.page-index-html 
-	header h1{font-size:36px}header h2{font-weight:300;font-size:28px; color:#a9a9a9;}.page-index-html 
-	header h2{font-weight:normal;margin:auto;width:50%;font-size:16px}@media screen and (max-width: 768px){.page-index-html header h2{width:100%}}
+	header h1{font-size:36px;}header h2{font-weight:300;font-size:28px; color:#a9a9a9;}
+	.page-index-html 
+	header h2{font-weight:normal;margin:auto;width:50%;font-size:16px;}@media screen and (max-width: 768px){.page-index-html header h2{width:100%}}
 	
-	footer ul{position:relative;top:-36px;font-size: 14px;float:right;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}
+	footer ul{position:relative;top:-48px;font-size: 14px;float:right;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}
 	footer ul li{margin-left:15px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:10 20px}}nav.project-switcher 
 	
 	section.smart-grid{width:100%;max-width:770px;margin:0 auto;margin-top:150px;margin-bottom:300px}
@@ -82,7 +83,7 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 	nav.top-nav button:hover{opacity:1, color:#f55649}
 	nav.top-nav button:hover,nav.top-nav button:focus,nav.top-nav
 	button:active{-webkit-animation-name:hvr-hang-sink, hvr-hang;animation-name:hvr-hang-sink, hvr-hang;-webkit-animation-duration:.3s, 1.5s;animation-duration:.3s, 1.5s;-webkit-animation-delay:0s, .3s;animation-delay:0s, .3s;-webkit-animation-timing-function:ease-out, ease-in-out;animation-timing-function:ease-out, ease-in-out;-webkit-animation-iteration-count:1, infinite;animation-iteration-count:1, infinite;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-direction:normal, alternate;animation-direction:normal, alternate}nav.top-nav:after{content:" ";clear:both;display:block}@media screen and (max-width: 768px){nav.top-nav{margin:0 -20px;width:100%}}
-	a{text-decoration:none;color:#1A1A1A; font-weight:bold;}a:hover{color:#f55649}section.smart-grid{padding-top:60px}
+	a{text-decoration:none;color:#484848; font-weight:bolder;}a:hover{color:#f55649}section.smart-grid{padding-top:60px}
 	
 	section.smart-grid .row{position:relative;margin-bottom:50px}section.smart-grid .row.no-gutter{margin-bottom:50}
 	section.smart-grid .row.seperators{padding:60px 0;border-top:1px solid #D8D8D8;border-bottom:1px solid #D8D8D8}
