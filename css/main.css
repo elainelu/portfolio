@@ -60,12 +60,12 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 	body{line-height:1.5;font-size:16px;color:#1A1A1A}div.pagination{z-index:0;position:fixed;height:100%;width:50%;top:0}@media screen and (max-width: 768px){div.pagination{display:none}}div.pagination-left{left:0;float:left}div.pagination-left a{float:left}div.pagination-right{right:0;float:right}div.pagination-right a{float:right;-webkit-transform:rotate(180deg);transform:rotate(180deg)}div.pagination:hover .icon{background-color:#F8F8F8}div.pagination a{display:inline-block;padding:50px;position:relative;top:50%;margin-top:-75px}div.pagination .icon{background-repeat:no-repeat;background-position:17px 14px;background-image:url("/assets/caret.png");height:50px;width:50px;border-radius:25px}div.pagination 
 	.icon:hover{background-color:#F8F8F8}main{z-index:1;background:#F8F8F8;min-height:100vh;max-width:910px;margin:0 auto;overflow:hidden;position:relative}
 	@media screen and (max-width: 768px){main{padding:0 20px}}header{padding-bottom:50px;margin:0 auto;margin-top:120px;text-align:center}
-	header:after{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;top:60px;position:relative}@media screen and (max-width: 768px){header:after{width:100%}}header .flag-image{margin:20px 0}header h1{font-weight:600 !important;font-size:64px;font-weight:bold;margin-bottom:24px}.page-index-html 
-	header h1{font-size:42px}header h2{font-weight:300;font-size:28px; color:#a9a9a9;}.page-index-html 
+	header:after{content:" ";width:150px;height:1px;background:#BCBCBC;margin:0 auto;display:block;top:60px;position:relative}@media screen and (max-width: 768px){header:after{width:100%}}header .flag-image{margin:20px 0}header h1{font-weight:600 !important;font-size:52px;font-weight:bold;margin-bottom:24px}.page-index-html 
+	header h1{font-size:36px}header h2{font-weight:300;font-size:28px; color:#a9a9a9;}.page-index-html 
 	header h2{font-weight:normal;margin:auto;width:50%;font-size:16px}@media screen and (max-width: 768px){.page-index-html header h2{width:100%}}
 	
 	footer ul{position:relative;top:-36px;font-size: 14px;float:right;padding-right:0px}footer ul:after{content:" ";clear:both;display:block}
-	footer ul li{margin-left:15px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:0 20px}}nav.project-switcher 
+	footer ul li{margin-left:15px;display:inline-block}@media screen and (max-width: 768px){nav.project-switcher{padding:10 20px}}nav.project-switcher 
 	
 	section.smart-grid{width:100%;max-width:770px;margin:0 auto;margin-top:150px;margin-bottom:300px}
 	@media screen and (max-width: 768px){nav.project-switcher 
@@ -75,7 +75,7 @@ input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align
 
 	nav.top-nav{background:#FFFFFF;border-bottom:1px #F2F2F2 solid; width:100%;max-width:880px;position:fixed;overflow:visible;
 		z-index:1000;padding-top:15px;padding-bottom:15px;padding-left:15px;padding-right:15px;}
-	nav.top-nav button{margin:10 10px;display:inline-block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#FFFFFF;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
+	nav.top-nav button{margin:0 10px;display:inline-block;opacity:0.5;font-size:14px;border:1px #4A4A4A solid;border-radius:10px;background:#FFFFFF;display:inline-block;vertical-align:middle;-webkit-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 0px transparent;-webkit-backface-visibility:hidden;backface-visibility:hidden;-moz-osx-font-smoothing:grayscale}
 	nav.top-nav button a{display:block;padding:0px;color:#4A4A4A}
 	nav.top-nav button.left{float:left;}
 	nav.top-nav button.right{float:right;}
